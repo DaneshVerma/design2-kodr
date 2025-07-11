@@ -28,7 +28,7 @@ html {
     display: flex;
     justify-content: space-around;
     .link {
-        color: gray;
+      color: gray;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -36,7 +36,8 @@ html {
       padding: 0 1rem;
       font-weight: 500;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      &:hover{
+      cursor: pointer;
+      &:hover {
         color: black;
       }
     }
@@ -97,11 +98,11 @@ section {
         .bottom {
           width: 100%;
         }
-        .top{
-            height: 45%;
+        .top {
+          height: 45%;
         }
-        .bottom{
-            height: 55%;
+        .bottom {
+          height: 55%;
         }
         .top,
         .bottom .left,
@@ -112,8 +113,8 @@ section {
           padding: 1rem;
           justify-content: space-between;
           .text {
-            p{
-                opacity: 0.8;
+            p {
+              opacity: 0.8;
             }
             color: white;
           }
